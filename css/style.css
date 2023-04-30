@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #dddddd;
+    display: block;
+}
+.cabecalho {
+    background-color: #222222;
+    color: white;
+}
+.cabecalho-titulo {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    padding-top: 2vh;
+    height: 6vh;
+}
+.principal {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30vh;
+    padding-left: 33vw;
+}
+.video {
+    display: block;
+    float: left;
+    height: 30vh;
+    width: 33vw;
+}
+.entradas {
+    display: flex;
+    flex-direction: column;
+}
+.etiqueta {
+    font-size: 1.5rem;
+    font-family: 'Rubik Iso', cursive;
+    margin: 0 1vw;
+    margin-top: .9vh;
+}
+.etiqueta:first-of-type {
+    margin-top: 0;
+}
+#caixa1, #caixa2, #caixa3 {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+    padding: 0;
+    margin: 0 2vw;
+    margin-top: .9vh;
+    font-family: 'Rubik Iso', cursive;
+    text-align: center;
+    font-size: 1.2rem;
+}
+button {
+    display: block;
+    margin-top: 1.6vh;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Rubik Iso', cursive;
+}
+.vermelho {
+    background-color: red;
+}
+.verde {
+    background-color: green;
+}
+.amarelo {
+    background-color: yellow;
+}
+.botoes::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+#mensagem {
+    font-size: 4rem;
+    margin-top: 10vh;
+    margin-left: 50vw;
+    font-family: 'Rubik Iso', cursive;
+    text-decoration: line-through;
+}

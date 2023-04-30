@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>1N54N1D4D3</title>
+	<meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="cabecalho">
+        <h1 class="cabecalho-titulo">INSANIDADE</h1>
+    </header>
+	<main class="principal">
+        <div>
+            <iframe class="video" src="https://www.youtube.com/embed/sUozdmBFBdc" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="entradas">
+            <label class="etiqueta" for="caixa1">BOTÃO 1:</label>
+            <input type="number" id="caixa1" min="1" max="13" placeholder="1-13">
+            <label class="etiqueta" for="caixa2">BOTÃO 2:</label>
+            <input type="number" id="caixa2" min="1" max="13" placeholder="1-13">
+            <label class="etiqueta" for="caixa3">BOTÃO 3:</label>
+            <input type="number" id="caixa3" min="1" max="13" placeholder="1-13">
+        </div>
+        <div class="botoes">
+            <button class="vermelho" id="btnVermelho">0</button>
+            <button class="verde" id="btnVerde">0</button>
+            <button class="amarelo" id="btnAmarelo">0</button>
+            <button type="button" onclick="verificar()">X</button>
+        </div>
+        <script src="./js/script.js">
+        </script>
+    </main>
+    <p id="mensagem"></p>
+</body>
+</html>

@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #dddddd;
+}
+.cabecalho {
+    background-color: #222222;
+    color: white;
+}
+.cabecalho-titulo {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    padding-top: 2vh;
+    height: 6vh;
+}
+.principal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#principal-palavra1, #principal-palavra3, #principal-palavra4, #principal-palavra6, #principal-palavra7, #principal-palavra9, #principal-palavra2, #principal-palavra5, #principal-palavra8 {
+    width: 33vw;
+    height: 13vh;
+    padding-top: 13vh;
+    text-align: center;
+    font-family: 'Rubik Iso', cursive;
+    font-size: 1.5rem;
+}
+.principal-video {
+    height: 30vh;
+    width: 33vw;
+}
