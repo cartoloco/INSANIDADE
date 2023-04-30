@@ -2,7 +2,7 @@ function verificar() {
     const num1 = parseInt(document.getElementById("caixa1").value);
     const num2 = parseInt(document.getElementById("caixa2").value);
     const num3 = parseInt(document.getElementById("caixa3").value);
-    if (clicksAmarelo === 0 && clicksVerde === 0 && clicksVermelho === 0) {
+    if (clicksAmarelo === 3 && clicksVerde === 2 && clicksVermelho === 1) {
         document.getElementById("mensagem").textContent = "A FENDA!";
         window.location.href = "./index3.html";
     } else {
